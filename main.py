@@ -4,6 +4,7 @@ from config import settings
 from discord import Member
 client = discord.Client()
 bot = commands.Bot(command_prefix = settings['prefix'])
+
 # role
 print('[BOT] - ON')
 
